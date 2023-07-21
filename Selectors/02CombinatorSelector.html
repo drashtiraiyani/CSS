@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types in Combinator Selector.</title>
+    <style>
+        body{
+            border: 5px solid rgb(65, 39, 1);
+        }
+        .parent{
+            background-color: aqua;
+            color: rgb(13, 25, 36);
+        }
+        .child p{
+            background-color: rgb(138, 104, 184);
+            color: rgb(9, 9, 10);
+        }
+        .parent1>i{
+            background-color: beige;
+            color: crimson;
+        }
+        .parent2, h3{
+            color: blue;
+            font-size: 25px;
+            border: 5px solid black;
+        }
+        p+p{
+            border: 5px solid orange;
+            color: rgb(69, 117, 117);
+        }
+        .parent3+p{
+            color: brown;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Types in Combinator Selector.</h1>
+    <h2>Descendant Selector</h2>
+    <div class="parent">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa expedita incidunt vero! Magnam, totam libero!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam numquam similique maiores ipsum est! Repellendus!</p>
+    </div>
+    <div class="child">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ipsum delectus doloribus aperiam eaque hefufea.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi molestias magni, quaerat ut dolor dolore?</p>
+    </div>
+    <hr>
+    <h2>Child Selector(>)</h2>
+    <div class="parent1">
+        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ipsum delectus doloribus aperiam eaque hefufea.</i>
+        <br>
+        <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi molestias magni, quaerat ut dolor dolore?</i>
+    </div>
+    <hr>
+    <h2>General Sibling Selector(~)</h2>
+    <div class="parent2">    
+        <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores explicabo rem id eligendi enim odit vel magnam nihil minus veniam minima, aspernatur eaque, illum quas dignissimos modi blanditiis officia. Impedit.</h3>
+    </div>
+    <hr>
+    <h2>Adjacent Sibling Selector[+]</h2>
+    <div class="parent3">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>

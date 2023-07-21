@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+    <style>
+        * {
+            color: khaki;
+            background-color: rgb(146, 132, 133);
+        }
+
+        .para {
+            color: aquamarine;
+            background-color:rgb(212, 104, 113);
+        }
+        #italic{
+            color: blueviolet;
+            background-color: aliceblue;
+        }
+        h2{
+            background-color: darkgoldenrod;
+            color: rgb(18, 32, 2);
+        }
+        div[class*="box"]{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+        }
+        .box1{
+            background-color: darkcyan;
+        }
+        .box2{
+            background-color: rgb(110, 14, 86);
+        }
+        .box3{
+            background-color: rgb(3, 47, 83);
+        }
+        input[type]{
+            color: aliceblue;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>All Basic Selectors in HTML & CSS</h1>
+    <h3>Universal Selector</h3>
+    <p>It is denoted by asterisk(*) symbol</p>
+    <p>It is applied to whole page in browser!</p>
+    <hr>
+
+    <h3>Class Selector</h3>
+    <p>It is denoted by dot(.) symbol</p>
+    <h4 class="para">It is applied to selected class only in browser!</h4>
+    <a href="#">Click</a>
+    <hr>
+
+    <h3>ID Selector</h3>
+    <p>It will be applied to selected ID only. ID should be always unique. ID is denoted by hash(#)</p>
+    <i id="italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eum illum quos veniam nam blanditiis ipsum distinctio? Modi mollitia autem quisquam, nostrum placeat eos corrupti?</i>
+    <hr>
+
+    <h2>Element Selector</h2>
+    <p>It is applied to selected element only!</p>
+    <hr>
+
+    <h1>Attribute Selector (#)</h1>
+    <p>
+      The CSS attribute selector matches elements based on the element having a
+      given attribute explicitly set, with options for defining an attribute
+      value or substring value match.
+    </p>
+
+    <input type="text" placeholder="type here...">
+
+    <div class="box1">Box 1</div>
+    <div class="box2">Box 2</div>
+    <div class="box3">Box 3</div>
+</body>
+
+</html>

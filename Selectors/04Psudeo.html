@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psudeo Class Selector</title>
+    <style>
+        a {
+            color: rgb(67, 121, 121);
+            font-size: 60px;
+        }
+
+        a:visited {
+            color: rgb(167, 48, 167);
+        }
+
+        a:active {
+            color: black;
+        }
+
+        a:hover {
+            color: brown;
+        }
+        h1::before{
+            content: "~";
+        }
+        h1::after{
+            content: "=>";
+        }
+        p::first-letter{
+            color: rgb(25, 112, 8);
+            font-size: 60px;
+        }
+        p::first-line{
+            font-size: 30px;
+        }
+        p::selection{
+            color: brown;
+            background-color: rgb(21, 172, 84);
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Psudeo Class Selector(:)</h2>
+    <a href="https://www.google.com">Google</a>
+    <h1>Psuedo Element Selector (::)</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, voluptatum
+        natus ad vero nostrum ut ea inventore. At consectetur rem saepe velit iure
+        reprehenderit, tenetur sit nam eaque nisi atque.
+    </p>
+</body>
+
+</html>
