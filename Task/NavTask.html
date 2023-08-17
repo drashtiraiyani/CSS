@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .main-div {
+            background-color: black;
+            display: flex;
+        }
+
+        .img1 {
+            height: 150px;
+        }
+
+        .ul-1 {
+            display: flex;
+        }
+
+        li {
+            padding: 25px;
+            padding-left: 100px;
+            padding-top: 40px;
+            list-style: none;
+        }
+
+        a {
+            color: aliceblue;
+            text-decoration: none;
+            justify-content: space-around;
+            font-size: 25px;
+        }
+
+        a:hover {
+            background-color: lightgrey;
+            border-radius: 10px;
+            border: 3px solid white;
+            color: black;
+        }
+
+        .ul-2 {
+            font-size: 25px;
+            color: aliceblue;
+        }
+
+        i {
+            position: relative;
+            left: 1030px;
+        }
+
+        .checkit {
+            position: absolute;
+            top: 75px;
+            left: 86.5%;
+            opacity: 0;
+        }
+
+        .ul-1 {
+            display: none;
+        }
+
+        input:checked+.ul-1 {
+            display: inline-block;
+            word-spacing: 8vw;
+            padding-top: 48px;
+            padding-right: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h1 class="h1-01">Nav Bar</h1> -->
+    <div class="main-div">
+        <img src="../Task/D-logo.jpg" class="img1" alt="image">
+        <ul class="ul-1">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+        <ul class="ul-2">
+            <li><i class="fa-solid fa-bars"></i></li>
+        </ul>
+        <input type="checkbox" class="checkit">
+        <ul class="ul-1">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+            <a href="#">Help</a>
+        </ul>
+    </div>
+</body>
+
+</html>

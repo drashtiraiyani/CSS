@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Media Query</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .container {
+            /* width: 90%; */
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            /* gap: 20px; */
+        }
+
+        .col-50 {
+            /* width: 50%; */
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .col-25 {
+            /* width: 25%; */
+            width: 100%;
+        }
+
+        .col-33 {
+            /* width: 33.33%; */
+            width: 100%;
+        }
+
+        /* Media Query starts from here  */
+
+        /* // Extra small devices (portrait phones, less than 576px) */
+        /* // No media query since this is the default in Bootstrap */
+
+        /* // Small devices (landscape phones, 576px and up) */
+        @media (min-width: 576px) {
+            .container {
+                /* width: 520px; */
+                width: 90%;
+
+            }
+
+            .col-50 {
+                width: 100%;
+            }
+
+            .col-25 {
+                width: 100%;
+            }
+
+            .col-33 {
+                width: 100%;
+            }
+        }
+
+        /* // Medium devices (tablets, 768px and up) */
+        @media (min-width: 768px) {
+            .container {
+                /* width: 720px; */
+                width: 90%;
+
+            }
+
+            .col-50 {
+                width: 100%;
+            }
+
+            .col-25 {
+                width: 50%;
+            }
+
+            .col-33 {
+                width: 100%;
+            }
+        }
+
+        /* // Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) {
+            .container {
+                /* width: 920px; */
+                width: 90%;
+
+            }
+
+            .col-50 {
+                width: 100%;
+            }
+
+            .col-25 {
+                width: 50%;
+            }
+
+            .col-33 {
+                width: 50%;
+            }
+        }
+
+        /* // Extra large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {
+            .container {
+                /* width: 1150px; */
+                width: 90%;
+
+            }
+
+            .col-50 {
+                width: 50%;
+            }
+
+            .col-25 {
+                width: 25%;
+            }
+
+            .col-33 {
+                width: 33.33%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores hic reprehenderit sint
+                quos iste obcaecati dolore nihil ipsum placeat illo at in laborum perspiciatis eligendi aliquid
+                repudiandae repellendus, veritatis nostrum?</div>
+            <div class="col-50"><img src="../../Images/banner.jpg" alt=""></div>
+        </div>
+        <div class="row">
+            <div class="col-33"><img src="../../Images/banner.jpg" alt=""></div>
+            <div class="col-33">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum veniam facilis similique
+                ipsum odio magni nihil recusandae voluptatibus, vel ratione necessitatibus voluptates neque quo iusto
+                rerum earum deleniti unde. Modi!</div>
+            <div class="col-33"><img src="../../Images/banner.jpg" alt=""></div>
+
+        </div>
+        <div class="row">
+            <div class="col-25"><img src="../../Images/banner.jpg" alt=""></div>
+            <div class="col-25">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti fugiat rerum
+                perspiciatis nostrum. Earum veritatis sint, illum laborum maxime quos velit fuga explicabo inventore
+                maiores ipsam enim cum. Animi, ab.</div>
+            <div class="col-25"><img src="../../Images/banner.jpg" alt=""></div>
+            <div class="col-25">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, iusto vero
+                dolores sed ipsam! Eligendi pariatur laudantium consequatur, illum tempore ullam assumenda quidem
+                officia tempora rerum, maxime voluptatum consectetur!</div>
+        </div>
+
+    </div>
+</body>
+
+</html>

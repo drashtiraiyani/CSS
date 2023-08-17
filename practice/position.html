@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .maindiv {
+        /* background-color: aquamarine; */
+        gap: 110px;
+        display: flex;
+    }
+
+    .pic1 {
+        position: relative;
+        width: 900px;
+    }
+
+    .pic2 {
+        position: absolute;
+        top: 80px;
+        margin-right: 800px;
+        right: 0;
+        width: 120px;
+        margin-top: -90px;
+    }
+
+    .pics1 {
+        position: relative;
+        width: 500px;
+    }
+
+    .pic2 {
+        position: absolute;
+        top: 80px;
+        margin-right: 800px;
+        right: 0;
+        width: 120px;
+        margin-top: -90px;
+    }
+</style>
+
+<body>
+    <div class="maindiv">
+        <div class="pic1">
+            <img src="../practice/image1.jpg" alt="image" width="600px">
+            <div class="pic2">
+                <img src="../practice/image2.jpg" alt="image" width="200px">
+            </div>
+        </div>
+        <!-- <div class="pics1">
+            <img src="../practice/image1.jpg" alt="image" width="600px">
+        <div class="pics2">
+            <img src="../practice/image2.jpg" alt="image" width="200px">
+        </div>
+        </div> -->
+    </div>
+</body>
+
+</html>

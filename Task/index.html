@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: yellow;
+    }
+
+    /* // XX-Large devices (larger desktops, 1400px and up) */
+    @media (max-width: 1400px) {
+        body {
+            background-color: rgb(21, 0, 255);
+        }
+
+        h1:active {
+            content: "1400px";
+        }
+    }
+
+    /* // X-Large devices (large desktops, 1200px and up) */
+    @media (max-width: 1200px) {
+        body {
+            background-color: rgb(255, 13, 0);
+        }
+
+        h1:active {
+            content: 1200px;
+        }
+    }
+
+    /* // Large devices (desktops, 992px and up) */
+    @media (max-width: 992px) {
+        body {
+            background-color: rgb(255, 0, 162);
+        }
+
+        h1:active {
+            content: 992px;
+        }
+    }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media (max-width: 768px) {
+        body {
+            background-color: rgb(0, 255, 55);
+        }
+
+        h1:active {
+            content: 768px;
+        }
+    }
+
+    /* // Small devices (landscape phones, 576px and up) */
+    @media (max-width: 576px) {
+        body {
+            background-color: aqua;
+        }
+
+        h1:active {
+            content: 576px;
+        }
+    }
+</style>
+
+<body>
+    <h1>Media Query</h1>
+</body>
+
+</html>
