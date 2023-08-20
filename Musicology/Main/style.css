@@ -348,10 +348,127 @@ h3+p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.text4 {
-    font-size: 50px;
-    color: #b01111;
+.page6 {
+    margin-bottom: -17px;
+}
+
+.imges {
+    position: relative;
     text-align: center;
-    padding-bottom: 50px;
+    color: white;
+    font-size: 72px;
+}
+
+.texts {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+    padding-top: 250px;
+}
+
+.text01 {
+    position: absolute;
+    left: 32%;
+    top: 80px;
+    padding-top: 40%;
+    text-transform: uppercase;
+}
+
+.page7 {
+    background-color: #e8631c;
+    padding-bottom: 100px;
+}
+
+.text4 {
+    font-size: 75px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.para7 {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    width: 50%;
+    margin-left: 360px;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#name {
+    padding: 15px;
+    padding-left: 5px;
+    width: 500px;
+    margin-left: 410px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    padding: 15px;
+    margin-left: -10px;
+    background-color: #303030;
+    color: white;
+    width: 170px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer {
+    background-color: #303030;
+    display: flex;
+}
+
+.main-text1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 33px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.para8 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 30px;
+    text-transform: none;
+}
+
+.icons {
+    margin-top: 30px;
+    gap: 5px;
+}
+
+.main-text2{
+    padding: 50px;
+    padding-top: 80px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+.ul-1 {
+    font-size: 20px;
+    color: #ffffff;
+    list-style: none;
+    line-height: 35px;
+    text-transform: none;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.ul-2 {
+    font-size: 20px;
+    color: #ffffff;
+    list-style: none;
+    line-height: 35px;
+    text-transform: none;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+
