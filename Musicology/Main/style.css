@@ -41,6 +41,8 @@
     background-repeat: no-repeat;
     width: 100%;
     padding-bottom: 163px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .name {
@@ -72,6 +74,7 @@
     font-size: 21px;
     border: none;
     border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .container {
@@ -364,6 +367,7 @@ h3+p {
     left: 50px;
     top: 80px;
     padding-top: 250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .text01 {
@@ -372,6 +376,7 @@ h3+p {
     top: 80px;
     padding-top: 40%;
     text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .page7 {
@@ -429,6 +434,7 @@ button {
     font-size: 33px;
     padding-left: 100px;
     padding-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .para8 {
@@ -436,6 +442,8 @@ button {
     color: #ffffff;
     margin-top: 30px;
     text-transform: none;
+    line-height: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .icons {
@@ -443,11 +451,12 @@ button {
     gap: 5px;
 }
 
-.main-text2{
+.main-text2 {
     padding: 50px;
     padding-top: 80px;
     color: #ffffff;
     text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -459,6 +468,7 @@ button {
     text-transform: none;
     margin-left: 100px;
     margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .ul-2 {
@@ -469,6 +479,5 @@ button {
     text-transform: none;
     margin-left: 60px;
     margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-
