@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+.menu{
+    display: none;
+}
 .navbar {
     background-color: #303030;
     display: flex;
@@ -31,8 +34,8 @@
 }
 
 .logo2 {
-    padding-left: 22%;
-    padding-top: 35px;
+    padding-left: 300px;
+    padding-top: 42px;
 }
 
 .cotent {
