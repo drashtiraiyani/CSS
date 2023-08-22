@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Grid</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .main-div {
+        background-color: rgb(210, 64, 81);
+        height: 500px;
+        width: 100%;
+        display: grid;
+        /* grid-template-rows: 120px 120px 120px;
+        grid-template-columns: 120px 120px 120px; */
+        /* grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr); */
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50px 1fr 40px;
+        border: 2px solid black;
+        row-gap: 12px;
+        column-gap: 12px;
+        /* justify-content: center; */
+        /* align-items: end; */
+        /* place-items: center; */
+    }
+    
+    .b1 {
+        background-color: yellow;
+        /* height: 100px;
+        width: 100px; */
+    }
+
+    .box1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-column: 1/ span 3;
+        border: 3px solid black;
+        
+    }
+    
+    .box2{
+        justify-self: center;
+    }
+    
+    .box3{
+        align-self: center;
+    }
+
+    .box4{
+        place-self: start;
+    }
+    .footer{
+        grid-column: 1/4;
+        border: 3px solid black;
+    }
+    
+
+</style>
+
+<body>
+    <div class="main-div">
+        <div class="b1 box1">
+            Box1 Lorem ipsum dolor sit amet.
+        </div>
+        <div class="b1 box2">
+            Box2
+        </div>
+        <div class="b1 box3">Box3</div>
+        <div class="b1 box4">Box4</div>
+        <div class="b1 footer">Box5</div>
+    </div>
+</body>
+
+</html>
